@@ -3,6 +3,7 @@
 /**
  * main - Prints the alphabet in lowercase in reverse
  * only putchar function, not printf
+ * Return: Always 0.
  */
 int main(void)
 {
