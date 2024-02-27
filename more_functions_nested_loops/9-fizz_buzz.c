@@ -28,7 +28,7 @@ int main()
 	}
 	esle if (num == 1)
 	{
-		printf("1")
+		printf("1");
 	}
 	else
 	{
