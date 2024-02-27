@@ -7,8 +7,10 @@
  * and for the multiples of five prints Buzz
  * Return: Always 0 (Success)
  */
+
 int main()
-{)
+
+{
 	int num;
 	for (num = 1; num <= 100; num++)
 	
