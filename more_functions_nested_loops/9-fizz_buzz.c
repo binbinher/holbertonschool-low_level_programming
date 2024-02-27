@@ -26,7 +26,7 @@ int main()
 	{
 		printf(" FizzBuzz");
 	}
-	esle if (num == 1)
+	else if (num == 1)
 	{
 		printf("1");
 	}
