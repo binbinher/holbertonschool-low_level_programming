@@ -1,12 +1,13 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h>
 
 /**
- * main: print a random number and states whether if it's positive,negative , or zero.
+ * main - Positive anything is better than negative nothing
  *
- * Return: Always 0 (success)
+ * Return: Always 0 (Success)
  */
+
 int main(void)
 {
 	int n;
@@ -15,15 +16,15 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 	{
-		printf("%i is positive\n ", n);
+		printf("%i is positive\n", n);
 	}
 	else if (n == 0)
-	{	
+	{
 		printf("%i is zero\n", n);
 	}
 	else
 	{
-		printf("%i is negative\n", n);}
-	
+		printf("%i is negative\n", n);
+	}
 	return (0);
 }
