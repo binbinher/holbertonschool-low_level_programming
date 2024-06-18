@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main -  prints all the numbers of base 16 in lowercase
- * means 0 to 9 and a to f, use putchar only, 3times most 
+ * means 0 to 9 and a to f, use putchar only, 3times most
  * Return: Always 0.
  */
 int main(void)
