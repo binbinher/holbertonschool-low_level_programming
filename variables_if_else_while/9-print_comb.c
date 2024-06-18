@@ -12,8 +12,10 @@ int main(void)
 	{	
 		putchar('0' + i % 10);
 		if (i != 9)		
-		putchar(',');
-		putchar(' ');	
+		{
+			putchar(',');
+			putchar(' ');	
+	        }
 	}
 	putchar('\n');
 	return (0);
