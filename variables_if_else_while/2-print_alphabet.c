@@ -1,4 +1,4 @@
-#include <stdio.h>
+i#include <stdio.h>
 
 /**
  * main: prints the alphabet in lowercase, followed by a new line.
@@ -12,5 +12,5 @@ int main(void)
 		putchar(letter);
 	putchar('\n');
 
-	Return (0);
+	return (0);
 }
