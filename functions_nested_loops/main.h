@@ -3,6 +3,8 @@
  * this file includes the prototypes of all the functions,
  * for the 3rd project: functions, nested loops
  */
+
+int _putchar(char c);
 void print_alphabet(void);
 void print_alphabet_x10(void);
 int _islower(int c);
