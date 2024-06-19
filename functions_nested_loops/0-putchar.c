@@ -4,7 +4,7 @@
  * 
  * Return: Always 0. (success)
  */
-int _putchar
+int _putchar;
 
 {
 	_putchar('_');
