@@ -2,12 +2,12 @@
 /**
  * _abs - computes the absolute value of an integer
  * @n:the integer to compute
- * @r: the absolute value
- * Return: Always 0.
+ * Return: The abosolute value of the integer.
  */
-int _abs(int n, r)
+int _abs(int n)
 {
 	if (n >= 0)
-		r = n if (n < 0)
-				r = -n return (0);
+		return (n);
+	else
+		return (-n);
 }
