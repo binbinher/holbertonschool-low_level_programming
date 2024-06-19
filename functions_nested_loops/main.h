@@ -1,3 +1,6 @@
+#ifndef main.h
+#define main.h
+
 /**
  * this file includes the prototypes of all the functions,
  * for the 3rd project: functions, nested loops
