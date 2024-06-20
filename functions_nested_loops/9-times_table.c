@@ -2,9 +2,6 @@
 /**
  * times_table - prints the 9times table
  * starting with 0
- * @n: number to be print
- * @multi: multiplier, the number to be multipied
- * @prod: result of number * multiplier
  */
 void times_table(void)
 {
