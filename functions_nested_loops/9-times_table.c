@@ -16,12 +16,12 @@ void time_table(void)
 		for (multi = 1; multi <= 9; multi++)
 		{
 			_putchar(',');
-			_putchar('');
+			_putchar(' ');
 
 			prod = n * multi;
 
 			if (prod <= 9)
-				_putchar('');
+				_putchar(' ');
 			else
 				_putchar((prod % 10) + '0');
 			_putchar((prod % 10) + '0');
