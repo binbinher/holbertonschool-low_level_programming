@@ -6,7 +6,7 @@
  * @multi: multiplier, the number to be multipied
  * @prod: result of number * multiplier
  */
-void time_table(void)
+void times_table(void)
 {
 	int n, multi, prod;
 
