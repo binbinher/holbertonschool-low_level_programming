@@ -1,7 +1,6 @@
 #include <unistd.h>
 /**
  * main - prints out the last part of a quote in the standard error.
- * not allowed puts and printf
  * Return: 1.
  */
 int main(void)
