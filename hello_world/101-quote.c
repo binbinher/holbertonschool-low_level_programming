@@ -1,7 +1,6 @@
 #include <unistd.h>
 /**
- * main -  prints string: "and that piece of art is useful"
- * - Dora Korpar, 2015-10-19"
+ * main - prints out the last part of a quote in the standard error.
  * not allowed puts and printf
  * Return: 1.
  */
