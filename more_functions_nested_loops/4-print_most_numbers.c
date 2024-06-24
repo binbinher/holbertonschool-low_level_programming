@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_most_numbers - prints the numbers, 
+ * print_most_numbers - prints the numbers
  * from 0 to 9, followed by a new line.
  * do not print 2 and 4
  * _putchar only, twice max
