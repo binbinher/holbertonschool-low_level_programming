@@ -9,8 +9,10 @@ void print_most_numbers(void)
 	int num;
 	
 	for (num >=n 0; num <= 9; num++)
-			|| (num != 2 && num != 4)
+	{
+		if (num != 2 && num != 4)
 		_putchar((num % 10) + '0');
+	}
 
 	_putchar('\n');
 }
