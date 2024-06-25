@@ -8,11 +8,11 @@
  */
 void print_triangle(int size)
 {
-	int row, column, n = size -1;
+	int row = 0, column, n = size -1;
 
 	if (size > 0)
 	{
-		for (row =0; row < size; row++)
+		for (; row < size; row++)
 		{
 			for (column = 0; column < size; column ++)
 			{
