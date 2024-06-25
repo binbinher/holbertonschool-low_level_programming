@@ -6,9 +6,11 @@
  * multiples of both three and five print FizzBuzz.
  * Return: Always 0.
  */
-int main(void)
+int main( )
 {
-	for (int num = 1; num <= 100; num++)
+	int num;
+	
+	for (num = 1; num <= 100; num++)
 		{
 			if ((num % 3) == 0 && (num % 5) == 0)
 			{
