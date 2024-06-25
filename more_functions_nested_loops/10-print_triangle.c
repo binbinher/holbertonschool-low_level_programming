@@ -14,7 +14,7 @@ void print_triangle(int size)
 	{
 		for (; row < size; row++)
 		{
-			for (column = 0; column < size; column ++)
+			for (column = 0; column < size; column++)
 			{
 				if (column < n)
 					_putchar(' ');
@@ -25,7 +25,7 @@ void print_triangle(int size)
 			_putchar('\n');
 		}
 	}
-	else	
+	else
 		_putchar('\n');
 
 }
