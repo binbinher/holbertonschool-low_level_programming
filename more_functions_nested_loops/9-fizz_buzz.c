@@ -32,6 +32,7 @@ int main(void)
 				continue;
 			printf(" ");
 		}
-		printf('\n');
+	printf("\n");
+
 	return(0);
 }
