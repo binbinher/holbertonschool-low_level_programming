@@ -13,6 +13,12 @@ int _atoi(char *s)
 	int sign = 1;
 	int i = 0;
 
+	while (s[i] == ' ' || s[i] == '\t' || s[i] == '\n' ||
+				 s[i] == '\v' || s[i] == '\f' || s[i] == '\r')
+	{
+		i++;
+	}
+
 	if (s[i] == '-' || s[i] == '++')
 	{
 		if (s[0] == '-')
