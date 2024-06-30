@@ -1,13 +1,12 @@
-include "main.h"
-		/**
-		 * _strncat - concatenates two strings.
-		 * @dest: destination string. string to be appended upon
-		 * @src: source string, string to be completed at end of dest
-		 * @n:integer parameter to compare index to
-		 * Return:a pointer to the resulting string dest
-		 */
-		char *
-		_strncat(char *dest, char *src, int n)
+#include "main.h"
+/**
+ * _strncat - concatenates two strings.
+ * @dest: destination string. string to be appended upon
+ * @src: source string, string to be completed at end of dest
+ * @n:integer parameter to compare index to
+ * Return:a pointer to the resulting string dest
+ */
+char *_strncat(char *dest, char *src, int n)
 {
 
 	int index = 0, dest_len = 0;
