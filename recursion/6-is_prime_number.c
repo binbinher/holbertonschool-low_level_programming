@@ -5,6 +5,7 @@
  * @n:the input integer
  */
 int is_prime_number(int n)
+
 {
 	int stt = n / 2;
 
