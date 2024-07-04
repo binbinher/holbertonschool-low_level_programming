@@ -7,7 +7,7 @@
  * @argc: counts of arguments
  * @argv: array of arguments
  * print Error if it does not receive two arguments
- * Return 0 if success, otherwise 1
+ * Return: 0 if success, otherwise 1
  */
 int main(int argc, char *argv[])
 {
