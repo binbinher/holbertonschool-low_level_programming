@@ -7,7 +7,7 @@
  * print Error if it does not receive two arguments
  * Return 0 if success, otherwise 1
  */
-int main(int argc, char *argv)
+int main(int argc, char *argv[])
 {
 	int i, j, mul;
 
