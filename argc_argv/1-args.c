@@ -5,7 +5,6 @@
  * @argc: numbers of arguments
  * @argv: array of arguments
  * Return: 0 (success)
- * -1 for excluding the name of the program
  */
 int main(int argc, char **argv)
 {
