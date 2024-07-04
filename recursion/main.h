@@ -12,4 +12,6 @@ int test_produit(int n, int p);
 int is_prime_number(int n);
 int test_diviseur(int n, int d);
 int _sqrt(int x, int y);
+int is_prime(int n, int stt);
+
 #endif
