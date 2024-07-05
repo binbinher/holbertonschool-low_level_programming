@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+#include <stddef.h>
 /**
  * _strstr -  locates a substring.
  * @haystack:the string needs to be checked
@@ -13,6 +13,7 @@ char *_strstr(char *haystack, char *needle)
 	{
 		return (haystack);
 	}
+
 	while (*haystack != '\0')
 	{
 		if ((*haystack == *needle) && compare(haystack, needle))
