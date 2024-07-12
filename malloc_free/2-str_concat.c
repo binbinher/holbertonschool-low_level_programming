@@ -42,7 +42,7 @@ char *str_concat(char *s1, char *s2)
 		{
 			string[i] = s2[i - size_s1];
 		}
-		string[size_s1 + size_s2] = '\0';
+		string[size_s1 + size_s2 + 1] = '\0';
 		return (string);
 	}
 	else
