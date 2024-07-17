@@ -1,9 +1,8 @@
 #include "function_pointers.h"
-
 /**
  * print_name - prints a name.
  * @name: name to print
- * @f: function to use
+ * @f:function to use
  * Return: Nothing
  */
 
