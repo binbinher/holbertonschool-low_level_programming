@@ -23,10 +23,10 @@ void print_all(const char *const format, ...)
 	while (format && format[i])
 	{
 		c = format[i];
-		swtich(c)
+		switch (c)
 		{
 		case 'c':
-			prinf("%c", va_arg(args, int));
+			printf("%c", va_arg(args, int));
 			break;
 		case 'i':
 			printf("%d", va_arg(args, int));
