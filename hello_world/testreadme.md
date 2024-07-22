@@ -46,11 +46,42 @@ Note that we will not provide the _putchar function for this project.
 * va_arg (man 3 va_arg)
 
 ### Compilation
+
 Our code will be compiled in this way:
+
 > $ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c
+
+* As a consequence, be careful not to push any c file containing a main function in the root directory of your project (you could have a test folder containing all your tests files including main functions)
+* Our main files will include your main header file (main.h): #include main.h
+* You might want to look at the gcc flag -Wno-format when testing with your _printf and the standard printf. 
 
 ### Task:
 We will code a function similar to the printf function from the stdio.h library.
+
+**Mandatory:**
+
+**0. I'm not going anywhere. You can print that wherever you want to. I'm here and I'm a Spur for life.**
+
+__Write a function that produces output according to a format.__
+
+- [x] **Prototype**: int _printf(const char *format, ...);
+- [x] **Returns**: the number of characters printed (excluding the null byte used to end output to strings).
+- [x] write output to stdout, the standard output stream.
+- [x] **format** is a character string. The format string is composed of zero or more directives. See **man 3 printf** for more detail. 
+
+- [x] You need to handle the following conversion specifiers:
+* **c**
+* **s**
+* **%**
+
+- [x]
+You don’t have to reproduce the buffer handling of the C library printf function.
+You don’t have to handle the flag characters.
+You don’t have to handle field width.
+You don’t have to handle precision.
+You don’t have to handle the length modifiers.
+
+- [x] GitHub repository: holbertonschool-printf.
 
 ### Authors
 Binbin HE, github:@[binbinher](https://github.com/binbinher)
