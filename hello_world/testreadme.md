@@ -37,6 +37,7 @@ Note that we will not provide the _putchar function for this project.
 
 ### Authorized functions & macros
 
+```
 * write (man 2 write)
 * malloc (man 3 malloc)
 * free (man 3 free)
@@ -44,6 +45,7 @@ Note that we will not provide the _putchar function for this project.
 * va_end (man 3 va_end)
 * va_copy (man 3 va_copy)
 * va_arg (man 3 va_arg)
+```
 
 ### Prototype
 
@@ -51,11 +53,24 @@ Note that we will not provide the _putchar function for this project.
 int _printf(const char *format, ...);
 ```
 
+### Specifiers
+Indicate what type of data to display and how to display it. 
+Some examples of common format specifiers:
+
+```
+* -%c: print a character
+* -%s: print a character string
+* - % : floating point number
+* - %d: print a decimal integer
+* - %i: print an integer number
+```
 ### Compilation
 
 Our code will be compiled in this way:
 
-> $ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c
+```
+ $ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c
+ ```
 
 * As a consequence, be careful not to push any c file containing a main function in the root directory of your project (you could have a test folder containing all your tests files including main functions)
 * Our main files will include your main header file (main.h): #include main.h
