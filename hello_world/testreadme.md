@@ -36,4 +36,6 @@ We will code a function similar to the printf function from the stdio.h library.
 
 ### Authors
 Binbin HE, github:@[binbinher](https://github.com/binbinher) 
-Zakaria AATTACHE,github:
+
+Zakaria AATTACHE,github:@[FYUDerma](https://github.com/FYUDerma)
+
