@@ -33,3 +33,7 @@ Note that we will not provide the _putchar function for this project
 
 ### Task:
 We will code a function similar to the printf function from the stdio.h library.
+
+### Authors
+Binbin HE, github:@[binbinher](https://github.com/binbinher) 
+Zakaria AATTACHE,github:
