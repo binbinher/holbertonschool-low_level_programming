@@ -45,6 +45,12 @@ Note that we will not provide the _putchar function for this project.
 * va_copy (man 3 va_copy)
 * va_arg (man 3 va_arg)
 
+### Prototype
+
+```
+int _printf(const char *format, ...);
+```
+
 ### Compilation
 
 Our code will be compiled in this way:
@@ -82,6 +88,27 @@ You don’t have to handle precision.
 You don’t have to handle the length modifiers.
 
 - [x] GitHub repository: holbertonschool-printf.
+
+**1. Education is when you read the fine print. Experience is what you get if you don't.**
+
+- [x] Handle the following conversion specifiers:
+* **d**
+* **i**
+
+- [x]
+You don’t have to handle the flag characters.
+You don’t have to handle field width.
+You don’t have to handle precision.
+You don’t have to handle the length modifiers.
+
+- [x] GitHub repository: holbertonschool-printf.
+
+**2. Just because it's in print doesn't mean it's the gospel.**
+
+- [x] Create a man page for your function.
+- [x] GitHub repository: holbertonschool-printf
+- [x] File: man_3_printf
+
 
 ### Authors
 Binbin HE, github:@[binbinher](https://github.com/binbinher)
