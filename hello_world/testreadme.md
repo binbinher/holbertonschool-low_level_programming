@@ -45,6 +45,10 @@ Note that we will not provide the _putchar function for this project.
 * va_copy (man 3 va_copy)
 * va_arg (man 3 va_arg)
 
+### Compilation
+Our code will be compiled in this way:
+> $ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c
+
 ### Task:
 We will code a function similar to the printf function from the stdio.h library.
 
