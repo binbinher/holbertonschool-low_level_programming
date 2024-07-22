@@ -1,6 +1,6 @@
 # C - printf
 
-## Project descrition**
+## Project descrition
 
 This 2 person team project is part of the first year curriculum at Holberton School, C24 from HDF.
 
@@ -9,12 +9,12 @@ This 2 person team project is part of the first year curriculum at Holberton Sch
 For this project, we will use the following concepts:
 
 Approaching a Project
-Group projects
-Pair programming -HowTo
-Flowcharts
 
-### 
-We will code a function similar to the printf function from the stdio.h library.
+Group projects
+
+Pair programming -HowTo
+
+Flowcharts
 
 ### Requirements
  
@@ -31,4 +31,5 @@ Don’t forget to push your header file
 All your header files should be include guarded
 Note that we will not provide the _putchar function for this project
 
-Tasks:
+### Task:
+We will code a function similar to the printf function from the stdio.h library.
