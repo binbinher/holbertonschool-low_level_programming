@@ -2,16 +2,15 @@
 
 ## Description :heavy_check_mark:
 
-This is a team project in which we learned about the details, advantages,
-and disadvantages of using binary trees as data structures. 
-We learned about what i the difference between a binary tree a d binary search tree. As well as the different traversal methods to go through a binary tree.
+This is a team project of Holberton School in which we learned about the basic algorithms and usage of binary trees as data structures. 
+Through out the tasks, we learned about the depth, the height the size of a binary tree; we also learned about what is the difference between a binary tree a d binary search tree, as well as different binary tree including a complte, a full, a perfect, a balanced tree. In the end we also learned the different traversal methods to go through a binary tree.
 
 ## Header File :file_folder:
 
 * [binary_trees.h](https://github.com/SadScourge/holbertonschool-binary_trees/blob/main/binary_trees.h): Header file containing definitions and
 prototypes for all types and functions written for the project.
 
-Data Structures
+## Data Structures
 ```
 struct binary_tree_s
 {
@@ -27,7 +26,7 @@ typedef struct binary_tree_s avl_t;
 typedef struct binary_tree_s heap_t;
 ```
 
-Function Prototypes
+## Function Prototypes :page_with_curl:
 
 | File                             | Prototype                                                                                        |
 | -------------------------------- | ------------------------------------------------------------------------------------------------ |
